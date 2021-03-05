@@ -1,0 +1,56 @@
+@use 'variables' as *;
+
+// Home Section Start
+#home {
+	height: 100%;
+	position: relative;
+	z-index: 0;
+	background-image: url('../images/Scoreboard-Overlay.jpg');
+	background-attachment: fixed;
+}
+
+#home::after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: -1;
+}
+// Home Section End
+
+// Scoreboard Start
+.scoreboard-overlay-new {
+	position: absolute;
+	width: 800px;
+	bottom: 50px;
+	left: 50px;
+	z-index: 999999;
+	background-color: #fff;
+	padding: 0;
+}
+
+
+.scoreboard-overlay-new img {
+	max-width: 150px;
+}
+
+.scoreboard-overlay-new .table {
+	margin-bottom: 0;
+}
+
+.scoreboard-overlay-new .table td {
+	color: #fff;
+	border: 5px solid #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.scoreboard-overlay-new .table td.division-name {
+	font-size: 40px;
+}

@@ -1,0 +1,34 @@
+@use 'variables' as *;
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: $body-color;
+}
+
+html, body {
+	height: 100%;
+}
+
+.bg-black {
+	background-color: #000;
+}
+
+.bg-red {
+	background-color: #ea0029;
+}
+
+.bg-blue {
+	background-color: #0062a9;
+}
+
+.bg-green {
+	background-color: #28a745;
+}
+
+.text-yellow {
+	color: yellow!important;
+}
+
+.text-red {
+	color: #ea0029!important;
+}
