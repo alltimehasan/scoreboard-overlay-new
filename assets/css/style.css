@@ -23,12 +23,24 @@ html, body {
   background-color: #28a745;
 }
 
+.bg-orange {
+  background-color: #e0ad3a !important;
+}
+
+.bg-darker-red {
+  background-color: #c01d2e !important;
+}
+
 .text-yellow {
   color: yellow !important;
 }
 
 .text-red {
   color: #ea0029 !important;
+}
+
+.bl-0 {
+  border-left: 0 !important;
 }
 
 .scoreboard-overlay-new {
@@ -72,6 +84,10 @@ html, body {
 
 .scoreboard-overlay-new .table td.division-name {
   font-size: 80px;
+}
+
+.clock {
+  font-size: 80px !important;
 }
 
 .scoreboard-overlay-new .min-width {
